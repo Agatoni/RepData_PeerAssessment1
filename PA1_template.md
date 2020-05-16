@@ -35,7 +35,7 @@ ggplot(data = daily_sum) +
   geom_histogram(aes(total_steps), fill = "cornflowerblue", color = "darkblue", bins = 5)
 ```
 
-![](PA1_template_files/figure-gfm/hist-1.png)<!-- -->
+![](Figures/hist-1.png)<!-- -->
 
 ### 3\. Mean and median number of steps taken each day:
 
@@ -65,7 +65,7 @@ ggplot(data = per_int, aes(x = interval, y = average_steps)) +
   geom_line(color = "#FC4E07") 
 ```
 
-![](PA1_template_files/figure-gfm/time_series-1.png)<!-- -->
+![](Figures/time_series-1.png)<!-- -->
 
 ### 5\. The 5-minute interval that, on average, contains the maximum number of steps:
 
@@ -125,7 +125,7 @@ ggplot(data = adj_sum) +
   geom_histogram(aes(total_steps), fill = "green2", color = "green4", bins = 5)
 ```
 
-![](PA1_template_files/figure-gfm/hist_2-1.png)<!-- -->
+![](Figures/hist_2-1.png)<!-- -->
 
 ### 8\. Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends:
 
@@ -142,4 +142,4 @@ ggplot(data = adj_avg) +
               facet_grid(rows = vars(weekend)) 
 ```
 
-![](PA1_template_files/figure-gfm/panel_plot-1.png)<!-- -->
+![](Figures/panel_plot-1.png)<!-- -->
