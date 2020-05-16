@@ -3,8 +3,8 @@ title: "Reproducible Research, Project 1"
 author: "S. Agatoni"
 date: "May, 2020"
 output:
-  html_document:
-    keep_md: true
+  github_document:
+    keep_html: true
 ---
 
 ```{r setup, include=FALSE}
